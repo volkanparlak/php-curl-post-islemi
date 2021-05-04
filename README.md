@@ -9,7 +9,7 @@ Başka sitedeki formda ′kullanici_eposta′ ve ′kullanici_sifre′ name öze
     $form_degerleri = array(
 	'kullanici_eposta' => 'volkan@hotmail.com', 
 	'kullanici_sifre' => '123456789'
-);
+	);
 
 
 Şimdi bu verileri karşı siteye POST edebilmek için uygun formata dönüştürüp post işlemi için gerekli ayarlamaları yapmamız gerekiyor.
