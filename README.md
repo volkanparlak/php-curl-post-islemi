@@ -1,4 +1,4 @@
-# php-curl-post-islemi
+# PHP cURL ile Veri Gönderme (Otomatik Form Doldurma)
 
 PHP kullanarak başka sitedeki form elemanına verileri post etme ve post işlemi sonucunda geriye dönen verileri elde ediyoruz.
 
