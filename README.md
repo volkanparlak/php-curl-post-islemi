@@ -4,11 +4,11 @@ PHP kullanarak başka sitedeki form elemanına verileri post etme ve post işlem
 
 Başka sitedeki formda ′kullanici_adi′ ve ′kullanici_sifre′ name özellikli text tipinde input elemanlarının olduğunu düşünelim. Bunun için bir dizi oluşturuyoruz ve bu alanlara yazılması gereken değerleri belirtiyoruz.
 
-
-$form_degerleri = array(
+    $form_degerleri = array(
 	'kullanici_eposta' => 'volkan@hotmail.com', 
 	'kullanici_sifre' => '123456789'
 );
+
 
 Şimdi bu verileri karşı siteye POST edebilmek için uygun formata dönüştürüp post işlemi için gerekli ayarlamaları yapmamız gerekiyor.
 
